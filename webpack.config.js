@@ -29,11 +29,11 @@ module.exports = {
         library: { type: "module" },
 
         // For remotes (please adjust)
-        // name: "ufStockInfo",
-        // filename: "remoteEntry.js",
-        // exposes: {
-        //     './Component': './/src/app/app.component.ts',
-        // },
+        name: "uf-stock-info",
+        filename: "remoteEntry.js",
+        exposes: {
+            './stockRoutes': './/src/app/app.routes.ts',
+        },
 
         // For hosts (please adjust)
         // remotes: {
